@@ -1,0 +1,40 @@
+title: Global Center for Digital Influence Research
+description: "Research and insights on digital influence and its impact on society"
+url: "https://gcdir.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - research.md
+  - blog.html
+  - about.md
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Site settings
+author: "Global Center for Digital Influence Research"
+email: contact@gcdir.org 

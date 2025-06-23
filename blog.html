@@ -1,0 +1,36 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<h1>Blog</h1>
+
+<p>Stay updated with our latest insights, research findings, and commentary on digital influence and technology trends.</p>
+
+{% if site.posts.size > 0 %}
+  <div class="posts">
+    {% for post in site.posts %}
+      <article class="post">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </time>
+        </p>
+        {% if post.excerpt %}
+          <div class="post-excerpt">
+            {{ post.excerpt }}
+          </div>
+        {% endif %}
+        <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No blog posts yet. Check back soon for our latest insights and research updates!</p>
+{% endif %}
+
+<hr>
+
+<p><em>Want to contribute to our blog? <a href="mailto:contact@gcdir.org">Contact us</a> with your ideas.</em></p> 
