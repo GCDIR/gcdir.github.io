@@ -35,6 +35,11 @@ defaults:
     values:
       layout: "default"
 
+# Sass settings for custom styling
+sass:
+  style: compressed
+
+
 # Site settings
 author: "Global Center for Digital Influence Research"
 email: contact@gcdir.org 

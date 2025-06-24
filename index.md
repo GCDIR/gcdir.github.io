@@ -10,7 +10,7 @@ intra-disciplinary research organization dedicated to advancing our
 understanding of digital influence and its impact on human behavior. The
 research center has its roots in both industry and academia, and work to connect
 and leverage industry data and academic expertise in areas including economics,
-political science, computer science, psychology, and marketing.
+political science, statistics/econometrics, computer science, psychology, and marketing.
 
 ## Our Mission
 
