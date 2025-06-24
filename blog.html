@@ -6,7 +6,9 @@ permalink: /blog/
 
 <h1>Blog</h1>
 
-<p>Stay updated with our latest insights, research findings, and commentary on digital influence and technology trends.</p>
+<p class="blog-intro">
+  Explore our latest commentary, research highlights, and reflections on the evolving landscape of digital influence and technology.
+</p>
 
 {% if site.posts.size > 0 %}
   <div class="posts">
@@ -21,16 +23,16 @@ permalink: /blog/
         {% if post.excerpt %}
           <div class="post-excerpt">
             {{ post.excerpt }}
+            <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
           </div>
         {% endif %}
-        <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
       </article>
     {% endfor %}
   </div>
 {% else %}
-  <p>No blog posts yet. Check back soon for our latest insights and research updates!</p>
+  <p>No blog posts yet. Check back soon for our latest insights and research updates.</p>
 {% endif %}
 
 <hr>
 
-<p><em>Want to contribute to our blog? <a href="mailto:contact@gcdir.org">Contact us</a> with your ideas.</em></p> 
+<p><em>Interested in contributing to the blog? <a href="mailto:contact@gcdir.org">Contact us</a> with your proposal or idea.</em></p>

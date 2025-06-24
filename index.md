@@ -5,30 +5,36 @@ title: Home
 
 # Welcome to the Global Center for Digital Influence Research (GCDIR)
 
-The Global Center for Digital Influence Research (GCDIR) is an independent and
-intra-disciplinary research organization dedicated to advancing our
-understanding of digital influence and its impact on human behavior. The
-research center has its roots in both industry and academia, and work to connect
-and leverage industry data and academic expertise in areas including economics,
-political science, statistics/econometrics, computer science, psychology, and marketing.
+The Global Center for Digital Influence Research (GCDIR) is an independent,
+intra-disciplinary research organization focused on understanding how digital
+influence shapes human behavior. With roots in both industry and academia, but
+without ties to any single institution, GCDIR bridges sectors to advance rigorous
+research. We connect real-world data with academic expertise across economics,
+political science, statistics, computer science, psychology, and marketing.
 
 ## Our Mission
 
-We conduct rigorous research to understand influence in the digital age and how
-it shape public opinion, political discourse, and social behavior. Our work
-helps policymakers, researchers, industry, and the public better understand the
-mechanisms and impacts of digital influence.
+We conduct rigorous research to understand digital influence and how it shapes
+public opinion, political discourse, and social behavior. Our work helps
+policymakers, researchers, industry, and the public gain deeper insight into the
+mechanisms and impacts of influence in the digital age.
 
 ## What We Do
 
-- **Research**: Comprehensive studies on digital influence mechanisms.
-- **Analysis**: Data-driven insights into online information ecosystems.
-- **Education**: Sharing knowledge through publications and presentations.
-- **Collaboration**: Working across academic institutions and industry.
+- **Research**: Conduct in-depth studies on the mechanisms of digital influence.
+- **Analysis**: Generate data-driven insights into online information ecosystems.
+- **Education**: Share findings through publications, talks, and public engagement.
+- **Collaboration**: Partner with academia and industry to advance knowledge and practice.
+
+## Join GCDIR
+
+Launched in 2025, GCDIR is actively expanding its network. If you work on or
+research digital influence, we’d love to hear from you.
 
 ## Latest Updates
 
-Stay informed about our latest research findings, publications, and insights by visiting our [Research](/research) section and [Blog](/blog).
+Explore our latest research findings, publications, and insights by visiting our
+[Research](/research) section and [Blog](/blog).
 
 ---
 
