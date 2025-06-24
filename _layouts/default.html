@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+    <!-- Browser tab icon (favicon) -->
+    <link rel="icon" href="{{ '/assets/images/gcdir_logo.png' | relative_url }}" type="image/png">
+
+    <!-- SEO: Description and Canonical URL -->
+    <meta name="description" content="{{ page.excerpt | default: site.description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+    <!-- Open Graph metadata -->
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:description" content="{{ page.excerpt | default: site.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ '/assets/images/gcdir_logo.png' | absolute_url }}">
+
+    <!-- Twitter Card metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | escape }}">
+    <meta name="twitter:description" content="{{ page.excerpt | default: site.description | escape }}">
+    <meta name="twitter:image" content="{{ '/assets/images/gcdir_logo.png' | absolute_url }}">
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% if site.footer %}
+      {% include footer.html %}
+    {% endif %}
+  </body>
+</html>
