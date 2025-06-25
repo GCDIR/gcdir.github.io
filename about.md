@@ -29,7 +29,7 @@ GCDIR is led by a founding team with experience across research, data science, a
 
 ### Data & Infrastructure
 
-- **Anish Chakraborty** — *Industry Data Advisor*  
+- **Anish Chakraborty** — *Technical Collaborator*  
   Anish is CTO of Trudy and supports GCDIR in developing technical infrastructure and facilitating access to high-quality industry data for research purposes.
 
 ## Advisory Board
